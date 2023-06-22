@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url("./Imagens/Fogo\ do\ Inferno.jpeg"); 
+background-size: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+header{
+
+font-family: 'Montserrat', sans-serif;
+color: white;
+display: flex;
+flex-wrap: wrap;
+height: 13vh;
+font-size: 20px;
+}
+
+header div{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 30%;
+font-size: 25px;
+
+
+}
+
+.imglogo{
+width: 54px;
+height: 96px;
+}    
+
+
+header nav{
+height: 100%;
+width: 60%;
+margin-left: 10%;
+}
+
+
+header ul{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+height:100%;
+
+
+}
+
+
+li{
+list-style: none;
+
+}
+
+main{ 
+
+height:620px;
+}
+
+
+section{
+background-image: url(./Imagens/Personagem\ sem\ fundo.png);
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: contain;
+ 
+height:100%;
+
+}
+
+figure{
+height: 100% ;
+display: flex;
+flex-direction: column-reverse;
+justify-content: flex-start;
+align-items: center;
+padding-bottom: 10vh;
+
+}
+
+
+
